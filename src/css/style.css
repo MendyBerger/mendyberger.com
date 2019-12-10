@@ -148,7 +148,7 @@ aside {
 }
 .homePage .homeLink,
 .notFoundPage .notFoundLink,
-.commingSoonPage .commingSoonLink {
+.comingSoonPage .comingSoonLink {
     background-color: var(--file-active-bgc);
     transition: background-color .1s ease;
 }
