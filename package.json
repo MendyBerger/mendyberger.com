@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "deploy": "node ./deploy.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "aws-sdk": "^2.779.0",
     "gulp": "^4.0.2",
-    "gulp-file-include": "^2.1.1"
+    "gulp-file-include": "^2.1.1",
+    "mime-types": "^2.1.27"
   }
 }
